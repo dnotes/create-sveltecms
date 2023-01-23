@@ -21,7 +21,7 @@
 </script>
 
 <div class="prose dark:prose-invert prose-xl mx-auto w-full">
-  <button type="button" on:click={stackblitz}>New Project on StackBlitz</button>
+  <button class="not-prose mx-auto text-xl block p-4 rounded-full border-2 border-green-600" type="button" on:click={stackblitz}>New Project on StackBlitz</button>
 
   <pre class="text-xs">
     <code>
